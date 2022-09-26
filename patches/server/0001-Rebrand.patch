@@ -5,7 +5,7 @@ Subject: [PATCH] Rebrand
 
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index dc00d06f9bd4cc7403e0fe89822ed40ed2e148c8..d61a58cbec242fa5a5660bc2bd6a8b2219f64ad5 100644
+index 4e4bc7e55a81dc44d7f6cfc6a8761141d0d3bb6c..e9d6fe8ed5aa4e9175982896d12b5d0f630fcef7 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
 @@ -9,7 +9,7 @@ plugins {
@@ -17,7 +17,7 @@ index dc00d06f9bd4cc7403e0fe89822ed40ed2e148c8..d61a58cbec242fa5a5660bc2bd6a8b22
      // Pufferfish start
      implementation("io.papermc.paper:paper-mojangapi:1.19.2-R0.1-SNAPSHOT") {
          exclude("io.papermc.paper", "paper-api")
-@@ -87,7 +87,7 @@ tasks.jar {
+@@ -86,7 +86,7 @@ tasks.jar {
          attributes(
              "Main-Class" to "org.bukkit.craftbukkit.Main",
              "Implementation-Title" to "CraftBukkit",
@@ -61,7 +61,7 @@ index fba5dbdb7bcbb55400ef18342c9b54612972a718..a9e01f9e2e931e19bbc4e3fbd97a2c80
          switch (distance) {
              case -1:
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index d182eac78879b5e124bb62aded8a405b327275b4..6e82382e9799d957ab6806689990514da206e8b6 100644
+index e9c20441e37db68d500c230a4371610f98c69428..5eb9f44195a39e5b354b8b798b1c1d290a2a09db 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 @@ -248,7 +248,7 @@ import javax.annotation.Nullable; // Paper
