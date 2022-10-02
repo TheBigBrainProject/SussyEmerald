@@ -5,7 +5,7 @@ Subject: [PATCH] Rebrand
 
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index 4e4bc7e55a81dc44d7f6cfc6a8761141d0d3bb6c..e9d6fe8ed5aa4e9175982896d12b5d0f630fcef7 100644
+index a61a0f4f1ce89681336d2ed246e6b616aa6fe73d..691b767b6aa2f05124ba711c90f7d9259bb017e8 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
 @@ -9,7 +9,7 @@ plugins {
@@ -87,10 +87,10 @@ index fb87620c742ff7912f5e8ccd2a7930dd605576d9..900a9b9b48d7e1dce11dde299eeebb95
  
          if (stream != null) {
 diff --git a/src/main/java/org/purpurmc/purpur/PurpurConfig.java b/src/main/java/org/purpurmc/purpur/PurpurConfig.java
-index 8d12ba33da62b58f6390a812fd025ede6032ed88..98ff760f25c71b77e3c457d40ee452c7a91f29a9 100644
+index 14844cb8a402ac987f44a91b95d5ebdac73c6dfe..fa55630de69af7c2f5c31dfce71c5dcb2e916af3 100644
 --- a/src/main/java/org/purpurmc/purpur/PurpurConfig.java
 +++ b/src/main/java/org/purpurmc/purpur/PurpurConfig.java
-@@ -242,7 +242,7 @@ public class PurpurConfig {
+@@ -244,7 +244,7 @@ public class PurpurConfig {
          if (!TimingsManager.hiddenConfigs.contains("settings.seed")) TimingsManager.hiddenConfigs.add("settings.seed");
      }
  
